@@ -26,6 +26,10 @@ const participants = [
     {
       name: 'Harold Villa',
       repo: 'https://github.com/haroldjvilla',
+    },
+    {
+      name: 'Camila Arcineaga',
+      repo: 'https://github.com/amcamila27',
     }
 
 ];
