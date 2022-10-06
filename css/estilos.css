@@ -5,6 +5,8 @@
 
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
   /* .clear{
     clear: both;
   } */
@@ -18,6 +20,7 @@
     justify-content: space-between;
 }
 
+
 .logo-fortnite {
   display: flex;
   align-items: center;
@@ -29,9 +32,9 @@
 
 .logo-prosper {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* background-color: #e60012; */
-  height: inherit;
+  height: 100px;
   padding: 5px;
 }
 
@@ -41,7 +44,55 @@
 
 .logo-prosper img {
   width: 150px;
+  background-color: #333
 };
+
+
+
+
+
+.principal{
+  background-color: black;
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr) 2fr minmax(300px, 1fr);
+  background-image: url('./pexels-pixabay-256381.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-info {
+  display: grid;
+  grid-column: 1;
+  text-align: inherit;
+  height: 400px;
+  font-size: 20px;
+  margin-left: 20px;
+  align-content: center;
+  background-image: url('./pexels-pixabay-256381.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: floralwhite;
+}
+
+.container-info h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  width: fit-content;
+  background-color: #18181873;
+}
+
+
+.container-info p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  width: fit-content;
+  background-color: #18181873;
+}
+
+
 
 
   .slide-toggle{
@@ -49,9 +100,9 @@
   }
 
   .slidemenu-container{
-    display: flex;
+    /* display: flex; */
     /* background-color: #333; */
-    height: 400px;
+    height: 140px;
     align-items: end;
     flex-wrap: wrap;
     align-content: flex-end;
@@ -60,7 +111,7 @@
   .slidemenu{
     margin-left: 200px;
     /* margin-top: 437px; */
-    font-family: arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 600px;
     margin: 50px auto;
     overflow: hidden;
